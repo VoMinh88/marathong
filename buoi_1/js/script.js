@@ -5,9 +5,10 @@ function fun1(){
     arr.push(name)  
     let str = ""
     arr.forEach(el=> {
-        str += "<ul>" + el
+        str += "<li>" + el
     })
      console.log(arr)
      console.log(str)
-     show.innerHTML = str
+     const div = document.getElementsByClassName('show') 
+     div[0].innerHTML = str
 }
