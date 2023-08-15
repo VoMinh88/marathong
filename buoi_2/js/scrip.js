@@ -35,7 +35,9 @@ for (let i = 0; i < but2.length; i++) {
             <div class="gio">`+el.soluon+`</div>
             <div class="gio">`+el.gia+`</div>
             <div class="gio">`+thanhtien+`</div>
+            
         </div>
+
         `;      
     });
     console.log(str)

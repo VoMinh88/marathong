@@ -77,16 +77,22 @@
   .cart{
     width: 100%;
     margin: 0px auto;
-    justify-content: center;
+
     background-color: aquamarine;
     text-align: center;
     display: grid;
     grid-template-columns: 5% 35% 20% 20% 20%;
-
+    border-bottom: 0.5px solid blue;
     
   }
+  .cart:last-child{
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px ;
+  }
   #cart1{
-    border: 0.5px solid blue;
+
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(171, 162, 179);
   }
 
   .cart>.menu{
